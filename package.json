@@ -1,7 +1,7 @@
 {
   "name": "petehaughie.com",
   "version": "1.0.0",
-  "description": "",
+  "description": "A place on the internet where I can share my thoughts and ideas.",
   "main": "index.js",
   "scripts": {
     "serve": "npx eleventy --serve",
@@ -9,10 +9,27 @@
     "debug": "DEBUG=* npx eleventy",
     "test": "jest"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/11ty/eleventy-base-blog.git"
+  },
   "author": "",
+  "bugs": {
+    "url": "https://github.com/petehaughie/.com/issues"
+  },
+  "keywords": [],
   "license": "ISC",
+  "engines": {
+    "node": ">=14"
+  },
   "dependencies": {
-    "@11ty/eleventy": "^2.0.1"
+    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy-img": "^4.0.2",
+    "@11ty/eleventy-navigation": "^0.3.5",
+    "@11ty/eleventy-plugin-bundle": "^2.0.2",
+    "@11ty/eleventy-plugin-rss": "^2.0.1",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
+    "luxon": "^3.4.4",
+    "markdown-it-anchor": "^9.0.1"
   }
 }
